@@ -23,7 +23,8 @@ models but not the textures they reference, so with surgepack winning the core r
 The server sends each pack with its sha1 so clients can reuse a cached copy. These are the hashes
 of the zips in this repository at the latest tag. From Lunar onward, surgepack is served straight from the
 commit that added it rather than from a release asset. A commit url never changes underneath the sha1,
-the same guarantee a release gives. surgepack `v14` is served from the commit that added it:
+the same guarantee a release gives. surgepack `v14` is at
+`https://raw.githubusercontent.com/seeedey/surge-packs/401123f0ea7f6b1ddc75920a50757a50360878a0/surgepack.zip`:
 
 ```
 Shader2.zip     55219f777e5a140546ee601b7bc9392a91816aaf
