@@ -10,7 +10,7 @@ private.
 | # | Pack | Supplies |
 | --- | --- | --- |
 | 1 | `Shader2.zip` | `ult_effects` fonts (the parry overlay), `ritualvfx`, the `custom.clock` sound, particle shaders |
-| 2 | `surgepack.zip` | HUD glyphs, the fullscreen title overlay, the custom sound set, text shaders, the four fragment shard items |
+| 2 | `surgepack.zip` | HUD glyphs, the fullscreen title overlay, the custom sound set, text shaders, the four fragment shard items, the Lunar icon, star and moon |
 | 3 | `spherpack.zip` | The raysphere models, the `raysphere_marker` textures, and the core shader that raytraces them |
 
 Lowest priority first. Minecraft merges `sounds.json` and font providers across the whole stack,
@@ -21,11 +21,12 @@ models but not the textures they reference, so with surgepack winning the core r
 ## Hashes
 
 The server sends each pack with its sha1 so clients can reuse a cached copy. These are the hashes
-of the assets on the current release:
+of the zips in this repository at the latest tag. From `v13`, surgepack is served straight from the
+tag, at `https://raw.githubusercontent.com/seeedey/surge-packs/v13/surgepack.zip`:
 
 ```
 Shader2.zip     55219f777e5a140546ee601b7bc9392a91816aaf
-surgepack.zip   64bce0112331806b3ecf78a6c1f2073861c2f305
+surgepack.zip   bbfc22aa83f7e4b3ab333c3f239bd1a8c823e637
 spherpack.zip   8aab0d79816008859f40b1502cffa1fbc1abb503
 ```
 
