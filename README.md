@@ -30,7 +30,7 @@ sha1 `bf7c241db3c2466dc1caf44c0689fb6427113130`):
 
 ```
 Shader2.zip     55219f777e5a140546ee601b7bc9392a91816aaf
-surgepack.zip   f7f23d772793fca23546bd9fd067e524f0921998
+surgepack.zip   75d9c6bc9f0e1cadea4f5ed27e5413f4ccf3ab49
 spherpack.zip   8aab0d79816008859f40b1502cffa1fbc1abb503
 ```
 
@@ -40,6 +40,20 @@ failure, and the server is configured to kick on a load failure.
 ```powershell
 certutil -hashfile surgepack.zip SHA1
 ```
+
+## surgepack v16: Spider and Disable
+
+`v16` is `v15` with every entry byte-identical (same offsets, same compressed bytes, same
+`pack.mcmeta`) and 9 entries appended under `assets/surge/`. 5,717,938 bytes. It adds:
+
+- **Two element icons**, `textures/hud/spider.png` and `textures/hud/disable.png` (32x32, drawn by
+  `tools/make-spider-disable-icons.py` in the plugin repository), bound as U+E01C and U+E01D in a
+  **new font, `surge:icons`**. They are not in `minecraft:default` because a release appends and the
+  default font file cannot be appended to; the plugin names the font on the charge bar.
+- **Two element stars**, `surge:spider_star` and `surge:disable_star`: item definition, model and the
+  same tile again under `textures/item/`.
+
+Like v15, it touches nothing outside its own namespace.
 
 ## surgepack v15: the Surge Cell and the Eclipse
 
