@@ -102,3 +102,7 @@ item model's atlas reaches.
 Replace the zip, cut a new release, and update both the url and the sha1 in the server's
 `config.yml`. The download url changes per release, so updating one without the other is the
 usual way to break this.
+
+## surgepack v17
+
+The slam ring recolours: `surge:shockwave_<tint>` for every element plus gold, pandora and void.
