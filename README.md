@@ -106,3 +106,4 @@ usual way to break this.
 ## surgepack v17
 
 The slam ring recolours: `surge:shockwave_<tint>` for every element plus gold, pandora and void.
+Served from: https://raw.githubusercontent.com/seeedey/surge-packs/3c69ea2645d7c4117e2fbc3c2a8e855e84595b32/surgepack.zip
