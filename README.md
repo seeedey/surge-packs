@@ -114,3 +114,4 @@ The animated pixel-art decals: `surge:<family>_<tint>` for five families (`pulse
 `vortex`, `mote`) across every element plus gold, pandora and void. Each is an animated texture strip
 (32x32 frames, `.png.mcmeta`) on a flat or camera-facing quad model. 340 files, appended to v17 with
 every earlier entry unchanged.
+Served from: https://raw.githubusercontent.com/seeedey/surge-packs/086a31e780810a470006312756193f5a4ee94f2c/surgepack.zip
