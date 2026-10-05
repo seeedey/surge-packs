@@ -107,3 +107,10 @@ usual way to break this.
 
 The slam ring recolours: `surge:shockwave_<tint>` for every element plus gold, pandora and void.
 Served from: https://raw.githubusercontent.com/seeedey/surge-packs/3c69ea2645d7c4117e2fbc3c2a8e855e84595b32/surgepack.zip
+
+## surgepack v18
+
+The animated pixel-art decals: `surge:<family>_<tint>` for five families (`pulse`, `sigil`, `fissure`,
+`vortex`, `mote`) across every element plus gold, pandora and void. Each is an animated texture strip
+(32x32 frames, `.png.mcmeta`) on a flat or camera-facing quad model. 340 files, appended to v17 with
+every earlier entry unchanged.
