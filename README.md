@@ -133,3 +133,4 @@ The Season 2 opening, shortened to about a minute:
 - The sky schedule is retimed to the new story and adds a gathering light and a white-out at her break.
 
 Rebuilt on v19 (only the opening's staged files are rewritten).
+Served from: https://raw.githubusercontent.com/seeedey/surge-packs/40ee4c8e64e16a9c536eea8f23d0bc7044b467e6/surgepack.zip
