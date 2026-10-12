@@ -124,3 +124,4 @@ The Season 2 opening:
 - `surge:knight_*`: SurgeSMPKnight's rig.
 
 This is a rebuild of v18 rather than an append, because two v18 files are replaced (the text shader pair). Every other entry is copied byte for byte.
+Served from: https://raw.githubusercontent.com/seeedey/surge-packs/f065315c0acfbee5f67c184434e289ffafeb4462/surgepack.zip
