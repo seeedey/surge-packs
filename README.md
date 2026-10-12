@@ -125,3 +125,11 @@ The Season 2 opening:
 
 This is a rebuild of v18 rather than an append, because two v18 files are replaced (the text shader pair). Every other entry is copied byte for byte.
 Served from: https://raw.githubusercontent.com/seeedey/surge-packs/f065315c0acfbee5f67c184434e289ffafeb4462/surgepack.zip
+
+## surgepack v20
+
+The Season 2 opening, shortened to about a minute:
+- The sky no longer draws the jagged seam line, and the gold/lavender edge at the clash is a soft gradient. The tear's rip is kept.
+- The sky schedule is retimed to the new story and adds a gathering light and a white-out at her break.
+
+Rebuilt on v19 (only the opening's staged files are rewritten).
