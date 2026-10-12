@@ -115,3 +115,12 @@ The animated pixel-art decals: `surge:<family>_<tint>` for five families (`pulse
 (32x32 frames, `.png.mcmeta`) on a flat or camera-facing quad model. 340 files, appended to v17 with
 every earlier entry unchanged.
 Served from: https://raw.githubusercontent.com/seeedey/surge-packs/086a31e780810a470006312756193f5a4ee94f2c/surgepack.zip
+
+## surgepack v19
+
+The Season 2 opening:
+- **Our own `rendertype_text`** (1_21_11 overlay), replacing the third-party text shader. Ordinary glyphs draw as vanilla. Glyphs from the new `overlays:fx` font become fullscreen effects: bloom, vignette, crack and letterbox. The old `overlays:fullscreen_*` tint still works. `#FFD700` text gets a gold gradient.
+- The opening's **sky and star shaders** (1_21_11 overlay). They draw only while the `surge:opening` datapack timeline writes its clock into the sky colour; at all other times they are vanilla.
+- `surge:knight_*`: SurgeSMPKnight's rig.
+
+This is a rebuild of v18 rather than an append, because two v18 files are replaced (the text shader pair). Every other entry is copied byte for byte.
