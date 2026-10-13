@@ -150,3 +150,7 @@ Served from: https://raw.githubusercontent.com/seeedey/surge-packs/c57ae9c7e9dd7
 
 v22 with the shader light toned down: no ring round halos, smaller halo/pillar/seam/ring glow (it washed over nearby water).
 Served from: https://raw.githubusercontent.com/seeedey/surge-packs/711f42527ca45549f4f6d671a8261eff720a2090/surgepack.zip
+
+## surgepack v24
+
+v23 with the hex lattice taken off the world border (drifting wisps instead) and the sky rip's polygon plates replaced by organic veins.
