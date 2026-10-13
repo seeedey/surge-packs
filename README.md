@@ -155,3 +155,7 @@ Served from: https://raw.githubusercontent.com/seeedey/surge-packs/711f42527ca45
 
 v23 with the hex lattice taken off the world border (drifting wisps instead) and the sky rip's polygon plates replaced by organic veins.
 Served from: https://raw.githubusercontent.com/seeedey/surge-packs/cf3e15e519d5368056de24a0e6934f98a229e6e3/surgepack.zip
+
+## surgepack v25
+
+v24 plus the opening's world warp: a terrain shader that twists the blocks themselves in on Pandora at the climax and throws them back out in a shockwave (replaces the Nausea screen warp). Signalled through the opening timeline's fog end; vanilla everywhere else.
