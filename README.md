@@ -154,3 +154,4 @@ Served from: https://raw.githubusercontent.com/seeedey/surge-packs/711f42527ca45
 ## surgepack v24
 
 v23 with the hex lattice taken off the world border (drifting wisps instead) and the sky rip's polygon plates replaced by organic veins.
+Served from: https://raw.githubusercontent.com/seeedey/surge-packs/cf3e15e519d5368056de24a0e6934f98a229e6e3/surgepack.zip
