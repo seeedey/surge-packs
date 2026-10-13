@@ -159,3 +159,4 @@ Served from: https://raw.githubusercontent.com/seeedey/surge-packs/cf3e15e519d53
 ## surgepack v25
 
 v24 plus the opening's world warp: a terrain shader that twists the blocks themselves in on Pandora at the climax and throws them back out in a shockwave (replaces the Nausea screen warp). Signalled through the opening timeline's fog end; vanilla everywhere else.
+Served from: https://raw.githubusercontent.com/seeedey/surge-packs/ae1d4e67e3e48e99b6baae7f73f892cc2130cd6d/surgepack.zip
