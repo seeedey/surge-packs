@@ -145,3 +145,7 @@ The Season 2 opening's light, drawn by the shader in the world:
 
 Rebuilt on v20: only the opening's staged files are rewritten, and the `rendertype_text` pair is replaced.
 Served from: https://raw.githubusercontent.com/seeedey/surge-packs/c57ae9c7e9dd78d4446d6d863743b23a2120e3f4/surgepack.zip
+
+## surgepack v23
+
+v22 with the shader light toned down: no ring round halos, smaller halo/pillar/seam/ring glow (it washed over nearby water).
