@@ -134,3 +134,13 @@ The Season 2 opening, shortened to about a minute:
 
 Rebuilt on v19 (only the opening's staged files are rewritten).
 Served from: https://raw.githubusercontent.com/seeedey/surge-packs/40ee4c8e64e16a9c536eea8f23d0bc7044b467e6/surgepack.zip
+
+## surgepack v22
+
+The Season 2 opening's light, drawn by the shader in the world:
+- **`overlays:world`**, a new font of six key glyphs (U+E820..E825). On a text display, our `rendertype_text` turns each one into a shape drawn in the world: a halo, a magic circle, a shockwave ring, a pillar of light, the supernova, or the seam. Every other glyph draws as before.
+- **`rendertype_text_see_through`** (1_21_11 overlay): vanilla, plus the same world shapes for see-through displays (the supernova).
+- **`rendertype_world_border`** (1_21_11 overlay): every world border is now drawn as aurora curtains over a hex lattice. It is violet when still, gold when growing, and rose when shrinking.
+- **The opening's sky in steps**, built as v21 and never released on its own. It adds a made region after v20's sky window; v20's window is unchanged.
+
+Rebuilt on v20: only the opening's staged files are rewritten, and the `rendertype_text` pair is replaced.
