@@ -164,3 +164,4 @@ Served from: https://raw.githubusercontent.com/seeedey/surge-packs/ae1d4e67e3e48
 ## surgepack v26
 
 v25 plus Pandora's aura: a lit glow layer (eyes and runes) for her head, body and arms, and a voxel halo. Additions only; every v25 entry is byte-identical.
+Served from: https://raw.githubusercontent.com/seeedey/surge-packs/45411aa81bce49acce381d19bd74eb9a64d97130/surgepack.zip
