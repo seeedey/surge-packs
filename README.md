@@ -170,3 +170,7 @@ Served from: https://raw.githubusercontent.com/seeedey/surge-packs/45411aa81bce4
 
 v26 made to load on Minecraft 26.3 (resource format 97). The pack range now runs to 97, and a new `26_3` overlay (formats 89–97) carries Surge's shaders rewritten for 26.3's shader syntax: `text` (26.3 has one text shader for every text pipeline, so it replaces both `rendertype_text` and `rendertype_text_see_through`), `world_border`, `sky`, `stars`, `terrain` and the five `surge_*` includes. Every other v26 entry is byte-identical; 1.21.11 clients still get the `1_21_11` overlay.
 Served from: https://raw.githubusercontent.com/seeedey/surge-packs/4ef1ebed6800490cfa446fc4edf7a8a8ab8df248/surgepack.zip
+
+## surgepack v28
+
+v27 with every entry byte-identical and 21 entries appended: 3D models for the seven held Trials mythics (Gambler's Axe, Lunge Spear, Shadow Dagger, Echo Compass, Warden's Bell, Gale Sceptre, Hourglass). Each `surge:mythic/<id>` has an item definition (`assets/surge/items/mythic/`), a model (`assets/surge/models/item/mythic/`) and its texture (`assets/surge/textures/item/mythic/`). No element rotation outside -45..45, so the models load on every client the pack supports. It touches nothing outside its own paths.
