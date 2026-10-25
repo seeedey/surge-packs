@@ -179,3 +179,4 @@ Served from: https://raw.githubusercontent.com/seeedey/surge-packs/c9e75bae77c53
 ## surgepack v29
 
 v28 with the seven Trials mythics' first-person views retuned: only `assets/surge/models/item/mythic/<id>.json` (the seven `display` blocks) changed. Built the same way as v28, v27 plus 21 appended entries, so every v27 entry is byte-identical and the textures and item definitions are byte-identical to v28.
+Served from: https://raw.githubusercontent.com/seeedey/surge-packs/daa3fdb7773b250e4acca7341a7a9747c1b5878e/surgepack.zip
