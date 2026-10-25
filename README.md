@@ -174,3 +174,4 @@ Served from: https://raw.githubusercontent.com/seeedey/surge-packs/4ef1ebed68004
 ## surgepack v28
 
 v27 with every entry byte-identical and 21 entries appended: 3D models for the seven held Trials mythics (Gambler's Axe, Lunge Spear, Shadow Dagger, Echo Compass, Warden's Bell, Gale Sceptre, Hourglass). Each `surge:mythic/<id>` has an item definition (`assets/surge/items/mythic/`), a model (`assets/surge/models/item/mythic/`) and its texture (`assets/surge/textures/item/mythic/`). No element rotation outside -45..45, so the models load on every client the pack supports. It touches nothing outside its own paths.
+Served from: https://raw.githubusercontent.com/seeedey/surge-packs/c9e75bae77c533a12ea3e06ec4ed31f713966d0a/surgepack.zip
