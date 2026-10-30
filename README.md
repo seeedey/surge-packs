@@ -180,3 +180,7 @@ Served from: https://raw.githubusercontent.com/seeedey/surge-packs/c9e75bae77c53
 
 v28 with the seven Trials mythics' first-person views retuned: only `assets/surge/models/item/mythic/<id>.json` (the seven `display` blocks) changed. Built the same way as v28, v27 plus 21 appended entries, so every v27 entry is byte-identical and the textures and item definitions are byte-identical to v28.
 Served from: https://raw.githubusercontent.com/seeedey/surge-packs/daa3fdb7773b250e4acca7341a7a9747c1b5878e/surgepack.zip
+
+## surgepack v30
+
+v29 plus the Proctor's lens for the Trials opening: World FX kind 56, drawn by the text shader from glyph U+E826 in `overlays:world` (texture `assets/overlays/textures/world/lens.png`). Seven entries change (`overlays:world`'s font, and the world FX include and text shaders in the `1_21_11` and `26_3` overlays) and one is added. The shaders only add a key, so every other glyph draws as in v29. A changed entry can't be appended next to its old self, so this one rewrites the archive; every other entry keeps its content, order and timestamp.
